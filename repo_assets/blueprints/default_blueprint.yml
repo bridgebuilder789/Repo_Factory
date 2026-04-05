@@ -1,0 +1,36 @@
+project_name: project_name_goes_here
+templates_dir: templates
+
+variables:
+  author: "Author Name"
+  description: "Project Description goes here..."
+  version: 1.0
+
+structure:
+  - path: src/
+    children:
+      - path: __init__.py
+        template: template__init__.py
+      - path: main.py
+        template: template_main.py
+
+  - path: docs/
+    children:
+    - path: README.md
+      template: template_readme.md
+
+  - path: tests/
+    children:
+      - path: template_test_main.py
+        template: template_test_main.py
+        
+  - path: logs/
+    children:
+      - path: app.log
+        template: template_app.log
+
+  - path: requirements.txt
+    template: template_requirements.txt
+
+  - path: .gitignore
+    template: template_gitignore
