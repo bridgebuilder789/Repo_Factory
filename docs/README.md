@@ -15,6 +15,9 @@ A tool used to build and manage repositories from standardized templates.
 - Templates
 
   - [] main.py
+  - [] __init__.py
+  - [] test_main.py
+  - [] app.log
   - [] .gitignore
   - [] .env
   - [] README.md
@@ -22,14 +25,27 @@ A tool used to build and manage repositories from standardized templates.
   - [] config.py
   - [] logging_handler.py
   - [] metrics_handler.py
+  - [] Template variable injection (author, description, version)
 
 - Blueprints
 
-  - [] src/
-  - [] logs/
+  - [x] src/
+  - [x] logs/
   - [] data/
-  - [] docs/
+  - [x] docs/
+  - [x] tests/
+  - [] Custom blueprint support
+  - [] Blueprint validation
 
 - Repo Factory
-  - [] Build Blueprint and Template
-  - [] Fire and Forget Repo Builder
+  - [x] Build Blueprint and Template
+  - [x] Fire and Forget Repo Builder
+  - [x] CLI interface
+  - [] Config management
+  - [] Logging setup
+  - [] Metrics / observability
+
+- GitHub Integration
+  - [] Authentication
+  - [] Repo auditing
+  - [] Template syncing (diff / patch strategy)
