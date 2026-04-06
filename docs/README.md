@@ -41,9 +41,11 @@ A tool used to build and manage repositories from standardized templates.
   - [x] Build Blueprint and Template
   - [x] Fire and Forget Repo Builder
   - [x] CLI interface
+  - [] Command and workflow documentation
   - [] Config management
   - [] Logging setup
   - [] Metrics / observability
+  - [] Tests
 
 - GitHub Integration
   - [] Authentication
